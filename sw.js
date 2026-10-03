@@ -1,10 +1,11 @@
-const CACHE_NAME = 'num-assign-v5';
+const CACHE_NAME = 'num-assign-v6';
 
 const ASSETS = [
-  'index.html',
-  'manifest.json',
-  'icon-192.jpg',
-  'icon-512.jpg'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.jpg',
+  './icon-512.jpg'
 ];
 
 self.addEventListener('install', (e) => {
