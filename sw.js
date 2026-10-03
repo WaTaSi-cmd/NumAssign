@@ -1,7 +1,10 @@
-const CACHE_NAME = 'num-assign-v4';
+const CACHE_NAME = 'num-assign-v5';
+
 const ASSETS = [
   'index.html',
-  'manifest.json'
+  'manifest.json',
+  'icon-192.png',
+  'icon-512.png'
 ];
 
 self.addEventListener('install', (e) => {
@@ -19,3 +22,4 @@ self.addEventListener('fetch', (e) => {
     })
   );
 });
+
